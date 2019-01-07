@@ -1,0 +1,31 @@
+﻿html{
+    min-height:100%;
+}
+body {
+    /*position:relative;*/
+    background:url(http://hbimg.b0.upaiyun.com/336e40842e5461abd81665c0694c963e34af48fc21a2a-HGvnaU_fw658);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.position{
+    margin-top:30px;
+    margin-left:250px;
+    
+}
+.title{
+    font-size:36px;
+    color:#ffffff;
+}
+.tourism{
+    width:200px;
+    height:200px;
+    border:3px solid #0026ff;
+    vertical-align:middle;
+}
+.introduce1{
+    width:350px;
+    height:200px;
+    font-size:15px;
+    background:no-repeat;
+    resize:none;
+}

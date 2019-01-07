@@ -1,0 +1,289 @@
+﻿body {
+    /*background-color:#fdf9f0;*/
+    background:url(../image/背景.png);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.pop{
+   
+    height:514px;
+}
+#pop-left{
+    height: 514px;
+    width: 775px;
+    margin-top: -20px;
+    margin-left: -150px;
+}
+.pop-right{
+    display:inline-block;
+    margin-top:-100px;
+    
+    margin:auto;
+}
+.pop-bottom{
+    margin-top:-100px;
+}
+
+#hi{
+    margin-top:40px;
+    font-size:70px;
+    color:#000000;
+    text-align:center;
+    position:relative;
+    animation: jump 5s linear 2s infinite alternate;
+    -webkit-animation: jump 5s linear 2s infinite alternate;
+}
+@keyframes jump
+{
+    0%   {color:#ff0000;  left:0px; top:0px;}
+    25%  {color:#ffd800; left:200px; top:0px;}
+    50%  {color:#b6ff00; left:200px; top:200px;}
+    75%  {color:#00ff21; left:0px; top:200px;}
+    100% {color:#0026ff; left:0px; top:0px;}
+}
+
+@-webkit-keyframes jump /* Safari and Chrome */
+{
+    0%   {color:#ff0000;  left:0px; top:0px;}
+    25%  {color:#ffd800; left:200px; top:0px;}
+    50%  {color:#b6ff00; left:200px; top:200px;}
+    75%  {color:#00ff21; left:0px; top:200px;}
+    100% {color:#0026ff; left:0px; top:0px;}
+}
+#name{
+   margin-top:30px;
+   font-size:50px;
+   
+}
+#school{
+    font-size:35px;
+    margin-bottom:0px;
+}
+.icon{
+    width:30px;
+    height:35px;
+    margin-left:210px;
+}
+#ellipsis1{
+    margin-left:450px;
+    margin-right:50px;
+    display:inline-block;
+}
+#aboutMe{
+    border-radius: 50px/50px;
+    background:#000000;
+    padding-left:70px;
+    font-size:20px;
+    color:#ffffff;
+    padding: 15px; 
+    width: 300px;
+    display:inline-block;
+    text-align:center;
+}
+#ellipsis2{
+    margin-left:50px;
+    display:inline-block;
+}
+#aboutMe-message {
+    text-align: center;
+    margin-left: 290px;
+    width: 1000px;
+}
+#ellipsis3{
+    margin-left:450px;
+    margin-right:45px;
+    display:inline-block;
+}
+#education{
+    border-radius: 50px/50px;
+    background:#000000;
+    /*padding-left:70px;*/
+    font-size:20px;
+    color:#ffffff;
+    padding: 15px; 
+    width: 200px;
+    display:inline-block;
+    text-align:center;
+}
+#ellipsis4{
+    margin-left:40px;
+    display:inline-block;
+}
+.education-message1{
+    margin-left:295px;
+    margin-bottom:0px;
+    display:inline-block;
+}
+#ellipsis5{
+    margin-left:300px;
+    margin-top:0px;
+    margin-bottom:0px;
+    display:inline-block;
+}
+#education-dot1{
+    border-radius:50%;
+    background:#000000;
+    color:#ffffff;
+    color:#000000;
+    width: 15px;
+    height:15px;
+    margin-bottom:0px;
+    margin-left:-950px;
+    display:inline-block;
+}
+#education-dot2{
+    border-radius:50%;
+    background:#000000;
+    color:#ffffff;
+    color:#000000;
+    width: 15px;
+    height:15px;
+    margin-bottom:0px;
+    margin-left:400px;
+    display:inline-block;
+}
+#education-dot3{
+    border-radius:50%;
+    background:#000000;
+    color:#ffffff;
+    color:#000000;
+    width: 15px;
+    height:15px;
+    margin-bottom:0px;
+    margin-left:400px;
+    display:inline-block;
+}
+.education-messsage2{
+    margin-left:315px;
+    /*margin-top:0px;*/
+    display:inline-block;
+}
+#ellipsis6{
+    margin-left:300px;
+    margin-right:20px;
+    display:inline-block;
+}
+#skill{
+    border-radius: 50px/50px;
+    background:#000000;
+    /*padding-left:70px;*/
+    font-size:20px;
+    color:#ffffff;
+    padding: 15px; 
+    width: 100px;
+    display:inline-block;
+    text-align:center;
+}
+#ellipsis7{
+    margin-left:20px;
+    margin-right:20px;
+    display:inline-block;
+}
+#interests{
+     border-radius: 50px/50px;
+    background:#000000;
+    /*padding-left:70px;*/
+    font-size:20px;
+    color:#ffffff;
+    padding: 15px; 
+    width: 100px;
+    display:inline-block;
+    text-align:center;
+}
+#ellipsis8{
+    margin-left:20px;
+    display:inline-block;
+}
+#skill-content1{
+    margin-left:200px;
+    border-radius:50%;
+    background:#000000;
+    color:#ffffff;
+    font-size:40px;
+    width:50px;
+    height:50px;
+    padding:10px;
+    border:5px solid #0af628;
+    text-align:center;
+    display:inline-block;
+}
+.skill-content2{
+    margin-left:50px;
+    border-radius:50%;
+    background:#000000;
+    color:#ffffff;
+    font-size:40px;
+    width:50px;
+    height:50px;
+    padding:10px;
+    border:5px solid #0af628;
+    text-align:center;
+    display:inline-block;
+}
+.image{
+    width:50px;
+    height:50px;
+}
+#interests-content1{
+    margin-left:100px;
+    border-radius:50%;
+    background:#000000;
+    width:50px;
+    height:50px;
+    padding:10px;
+    display:inline-block;
+}
+.interests-content2{
+    margin-left:50px;
+    border-radius:50%;
+    background:#000000;
+    width:50px;
+    height:50px;
+    padding:10px;
+    display:inline-block;
+}
+#ellipsis9{
+    margin-left:450px;
+    margin-right:50px;
+    display:inline-block;
+}
+#exercise{
+    border-radius: 50px/50px;
+    background:#000000;
+    padding-left:70px;
+    font-size:20px;
+    color:#ffffff;
+    padding:15px; 
+    width: 300px;
+    display:inline-block;
+    text-align:center;
+}
+#ellipsis10{
+    margin-left:50px;
+    display:inline-block;
+}
+#project{
+    margin-left:710px;
+    margin-right:400px;
+    font-size:30px;
+    display:inline-block;
+}
+#projectIntroduce{
+    text-align: center;
+    margin-left: 290px;
+    width: 1000px;
+}
+#ellipsis11{
+    text-align:center;
+}
+#honor{
+   margin-left:710px;
+    margin-right:400px;
+    font-size:30px;
+    display:inline-block;
+}
+#honorIntroduce{
+    text-align: center;
+    margin-left: 280px;
+    width: 1000px;
+}

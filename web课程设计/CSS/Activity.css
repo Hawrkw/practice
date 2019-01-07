@@ -1,0 +1,488 @@
+﻿html{
+    min-height:100%;
+   
+}
+body {
+    background:url(http://hbimg.b0.upaiyun.com/cb67cbd0c6b3c0775f8f775bc4779d85c98f924de8471-wjHDRA_fw658);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.left-block{
+    margin-left:10%;
+}
+
+.right-block ul{
+    width:35%;
+    margin-left:70%;  
+}
+.right-block ul a{
+    text-decoration:none;
+}
+#introduce{  
+    background:url(../image/世界这么大你想去哪里.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 400px;
+    text-align:center;
+}
+.image2 img.img1{
+    margin-left:30px;
+    margin-top:55px;
+    height:250px;
+    width:400px;
+    border:5px solid yellow;
+}
+.image2 img.image3{
+    width:53px;
+    height:53px;
+}
+
+#introduce1,#introduce2,#introduce3,#introduce4{
+    display:inline-block;
+}
+
+#rule{
+    padding-bottom:50px;
+}
+#rule h3 {
+    color: #0026ff;
+    font-size: 45px;
+    font-weight: 100;
+    margin-top:20px;
+}
+#rule p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.cir {
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #00ffff;
+    text-align: center;
+    font-size:15px;
+   color:#ffffff;
+}
+.txt{
+     display:inline-block;
+}
+ .st1 {
+     fill: #9BB133;
+}
+
+.st2 {
+     fill: #E7E43B;
+}
+
+.st3 {
+    fill: #6BABBD;
+}
+
+.st4 {
+    fill: #38B133;
+}
+
+.st5 {
+    fill: #E03BE7;
+}
+
+.st6 {
+    fill: #E9ACC1;
+}
+
+.st7 {
+    fill: #F04151;
+}
+
+.st8 {
+    fill: #13414C;
+}
+
+.st9 {
+    font-family: 'Montserrat-Regular';
+}
+
+.st10 {
+    font-size: 23.9043px;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+svg {
+  height: 100px;
+  width: 100px;
+  position:relative;
+  margin-bottom:-20px;
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+
+@-webkit-keyframes heart {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  17.5% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@keyframes heart {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  17.5% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+.Heart_2_ {
+  cursor: pointer;
+  will-change: transform;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation: heart 1.8s cubic-bezier(0.17, 0.89, 0.32, 1.49);
+          animation: heart 1.8s cubic-bezier(0.17, 0.89, 0.32, 1.49);
+}
+
+@-webkit-keyframes fadeInDown {
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@-webkit-keyframes bubble {
+  0%,100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    stroke-width: 0;
+    stroke: rgba(233, 172, 193, 0);
+  }
+  15% {
+    fill: #E9ACC1;
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    stroke: #E9ACC1;
+    stroke-width: 6;
+  }
+  100% {
+    fill: rgba(233, 172, 193, 0);
+  }
+}
+
+@keyframes bubble {
+  0%,100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    stroke-width: 0;
+    stroke: rgba(233, 172, 193, 0);
+  }
+  15% {
+    fill: #E9ACC1;
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    stroke: #E9ACC1;
+    stroke-width: 6;
+  }
+  100% {
+    fill: rgba(233, 172, 193, 0);
+  }
+}
+.Circle {
+  fill: #E9ACC1;
+  will-change: transform;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation: bubble 1.8s cubic-bezier(0.21, 0.61, 0.35, 1);
+          animation: bubble 1.8s cubic-bezier(0.21, 0.61, 0.35, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+@-webkit-keyframes particle {
+  0%,100% {
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: translate(0, 0) scale(1);
+            transform: translate(0, 0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 0) scale(0);
+            transform: translate(0, 0) scale(0);
+  }
+}
+
+@keyframes particle {
+  0%,100% {
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: translate(0, 0) scale(1);
+            transform: translate(0, 0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 0) scale(0);
+            transform: translate(0, 0) scale(0);
+  }
+}
+[class*=Particle] {
+  will-change: transform;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  opacity: 0;
+  -webkit-animation: particle 2.7s cubic-bezier(0.21, 0.61, 0.35, 1);
+          animation: particle 2.7s cubic-bezier(0.21, 0.61, 0.35, 1);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+}
+
+[class*=Particle]:nth-child(1) {
+  -webkit-animation-duration: 1084ms;
+          animation-duration: 1084ms;
+}
+
+[class*=Particle]:nth-child(2) {
+  -webkit-animation-duration: 1095ms;
+          animation-duration: 1095ms;
+}
+
+[class*=Particle]:nth-child(3) {
+  -webkit-animation-duration: 1142ms;
+          animation-duration: 1142ms;
+}
+
+[class*=Particle]:nth-child(4) {
+  -webkit-animation-duration: 1535ms;
+          animation-duration: 1535ms;
+}
+
+[class*=Particle]:nth-child(5) {
+  -webkit-animation-duration: 1309ms;
+          animation-duration: 1309ms;
+}
+
+[class*=Particle]:nth-child(6) {
+  -webkit-animation-duration: 1929ms;
+          animation-duration: 1929ms;
+}
+
+[class*=Particle]:nth-child(7) {
+  -webkit-animation-duration: 1347ms;
+          animation-duration: 1347ms;
+}
+
+[class*=Particle]:nth-child(8) {
+  -webkit-animation-duration: 1310ms;
+          animation-duration: 1310ms;
+}
+
+[class*=Particle]:nth-child(9) {
+  -webkit-animation-duration: 1171ms;
+          animation-duration: 1171ms;
+}
+
+[class*=Particle]:nth-child(10) {
+  -webkit-animation-duration: 1920ms;
+          animation-duration: 1920ms;
+}
+
+[class*=Particle]:nth-child(11) {
+  -webkit-animation-duration: 1279ms;
+          animation-duration: 1279ms;
+}
+
+[class*=Particle]:nth-child(12) {
+  -webkit-animation-duration: 1727ms;
+          animation-duration: 1727ms;
+}
+
+[class*=Particle]:nth-child(13) {
+  -webkit-animation-duration: 1390ms;
+          animation-duration: 1390ms;
+}
+
+[class*=Particle]:nth-child(14) {
+  -webkit-animation-duration: 1724ms;
+          animation-duration: 1724ms;
+}
+
+[class*=Particle]:nth-child(15) {
+  -webkit-animation-duration: 1285ms;
+          animation-duration: 1285ms;
+}
+
+[class*=Particle]:nth-child(16) {
+  -webkit-animation-duration: 1855ms;
+          animation-duration: 1855ms;
+}
+
+[class*=Particle]:nth-child(17) {
+  -webkit-animation-duration: 1317ms;
+          animation-duration: 1317ms;
+}
+
+[class*=Particle]:nth-child(18) {
+  -webkit-animation-duration: 1460ms;
+          animation-duration: 1460ms;
+}
+
+[class*=Particle]:nth-child(1) {
+  -webkit-transform: translate(500%, 500%) scale(0);
+          transform: translate(500%, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(2) {
+  -webkit-transform: translate(250%, 500%) scale(0);
+          transform: translate(250%, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(3) {
+  -webkit-transform: translate(0, 500%) scale(0);
+          transform: translate(0, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(4) {
+  -webkit-transform: translate(-250%, 500%) scale(0);
+          transform: translate(-250%, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(5) {
+  -webkit-transform: translate(-500%, 500%) scale(0);
+          transform: translate(-500%, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(6) {
+  -webkit-transform: translate(-500%, 250%) scale(0);
+          transform: translate(-500%, 250%) scale(0);
+}
+
+[class*=Particle]:nth-child(7) {
+  -webkit-transform: translate(-500%, 0%) scale(0);
+          transform: translate(-500%, 0%) scale(0);
+}
+
+[class*=Particle]:nth-child(8) {
+  -webkit-transform: translate(-500%, -250%) scale(0);
+          transform: translate(-500%, -250%) scale(0);
+}
+
+[class*=Particle]:nth-child(9) {
+  -webkit-transform: translate(-500%, -500%) scale(0);
+          transform: translate(-500%, -500%) scale(0);
+}
+
+[class*=Particle]:nth-child(10) {
+  -webkit-transform: translate(-250%, -500%) scale(0);
+          transform: translate(-250%, -500%) scale(0);
+}
+
+[class*=Particle]:nth-child(11) {
+  -webkit-transform: translate(0%, -500%) scale(0);
+          transform: translate(0%, -500%) scale(0);
+}
+
+[class*=Particle]:nth-child(12) {
+  -webkit-transform: translate(250%, -500%) scale(0);
+          transform: translate(250%, -500%) scale(0);
+}
+
+[class*=Particle]:nth-child(13) {
+  -webkit-transform: translate(500%, -500%) scale(0);
+          transform: translate(500%, -500%) scale(0);
+}
+
+[class*=Particle]:nth-child(14) {
+  -webkit-transform: translate(500%, -250%) scale(0);
+          transform: translate(500%, -250%) scale(0);
+}
+
+[class*=Particle]:nth-child(15) {
+  -webkit-transform: translate(500%, 0%) scale(0);
+          transform: translate(500%, 0%) scale(0);
+}
+
+[class*=Particle]:nth-child(16) {
+  -webkit-transform: translate(500%, 250%) scale(0);
+          transform: translate(500%, 250%) scale(0);
+}
+
+[class*=Particle]:nth-child(17) {
+  -webkit-transform: translate(500%, 500%) scale(0);
+          transform: translate(500%, 500%) scale(0);
+}
+
+[class*=Particle]:nth-child(18) {
+  -webkit-transform: translate(500%, 500%) scale(0);
+          transform: translate(500%, 500%) scale(0);
+}
+
+#shape{
+	background:url(../image/rocket.png) no-repeat scroll 0 0  transparent;
+	display:block;
+	height:250px;
+	width:149px;
+	overflow:hidden;  
+	border-color:red;
+	position:fixed;
+	margin:-125px 0 0;
+	right:0;
+	top:80%;
+	z-index:12;
+}
+#shape .shapeColor{
+	background:url(../image/rocket.png) no-repeat scroll -149px 0;
+	display:none; 
+    height:250px;
+    width:149px;
+    z-index:11;
+    overflow:hidden;
+
+    position:absolute;
+}
+
+#shape .shapeColor .shapeFly{
+	background:url(../image/rocketFly.gif) no-repeat;
+	display:none; 
+    height:250px;
+    width:149px;
+    z-index:10;
+    overflow:hidden;
+    position:absolute;
+}
